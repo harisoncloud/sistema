@@ -7,6 +7,7 @@ class produto(models.Model):
     nome = models.CharField(max_length=50, null=False)
     especificacoes = models.CharField(max_length=400)
     calibre = models.CharField(max_length=20)
+    status = models.CharField(max_length=2)
     agrupadorMapa = models.IntegerField()
 
 def __str__(self):

@@ -8,5 +8,6 @@ class pessoa(models.Model):
     endereco = models.CharField(max_length=40)
     telefone = models.CharField(max_length=12)
     cpf = models.CharField(max_length=12)
+    tipopessoa= models.CharField(max_length=20)
 
  

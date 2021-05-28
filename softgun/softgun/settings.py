@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'pessoa',
     'entradas',
     'saidas',
+    'tipoarmamento',
     'registroarmamento'
 ]
 
